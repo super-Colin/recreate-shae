@@ -1,0 +1,28 @@
+:root{
+    --layout-main-spacing: 1rem;
+
+    --layout-font-size-h1: 3.2rem;
+    --layout-font-size-h2: 2.8rem;
+    --layout-font-size-h3: 2.4rem;
+    --layout-font-size-h4: 2.1rem;
+    --layout-font-size-h5: 1.8rem;
+    --layout-font-size-h6: 1.6rem;
+    --layout-font-size-p: 1.3rem;
+}
+
+
+
+
+@media(min-width: 1200px){
+    :root {
+        --layout-main-spacing: 1.5rem;
+
+        --layout-font-size-h1: 3.2rem;
+        --layout-font-size-h2: 2.8rem;
+        --layout-font-size-h3: 2.4rem;
+        --layout-font-size-h4: 2.1rem;
+        --layout-font-size-h5: 1.8rem;
+        --layout-font-size-h6: 1.6rem;
+        --layout-font-size-p: 1.3rem;
+    }
+}

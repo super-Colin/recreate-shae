@@ -1,0 +1,19 @@
+:root{
+    --brand-main-color: #e40f5e;
+    --brand-second-color: rgb(244, 165, 96);
+
+    --brand-link-main-color: var(--brand-main-color);
+    --brand-link-second-color:var(--brand-second-color)
+    
+}
+
+
+body{
+    font-family: Arial;
+}
+
+a{
+    color: var(--brand-main-color);
+}
+
+
