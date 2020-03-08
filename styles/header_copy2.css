@@ -106,7 +106,7 @@ body{
 }
 .mainNavDropdownActive .headerBar-mainNav-wrapper{
     height: auto;
-    height: calc(var(--lower-headerBar-height) * 7);
+    height: calc(var(--lower-headerBar-height) * 6);
     top:100%;
     overflow: visible;
     border-top: 4px solid var(--nav-dropdown-colorBorder);
@@ -205,11 +205,9 @@ body{
     transform: rotate(45deg);
 }
 
-
-/* subDropdown */
+/* Dropdown */
 .headerBar-subDropdown-wrapper{
     position: relative;
-    cursor: pointer;
 }
 .headerBar-subDropdown-wrapper ul{
     position: absolute;
@@ -227,35 +225,6 @@ body{
     margin-bottom: 0;
 }
 
-/* subDropdown Icon  */
-.headerBar-subDropdown-wrapper .dropdown-plus-vertical {
-    transition: width var(--nav-transition-duration);
-    transform: rotate(90deg);
-}
-.headerBar-subDropdown-button .dropdown-plus-vertical {
-    width: var(--dropdown-icon-spanWidth);
-}
-.subNavDropdownActive .dropdown-plus-vertical {
-    width: 0;
-}
-.headerBar-subDropdown-wrapper .dropdown-chevron-left {
-    top: calc(var(--dropdown-icon-spanWidth) * 1.5);
-    transform: rotate(45deg);
-}
-.subNavDropdownActive .dropdown-chevron-left {
-    top: calc(calc(var(--dropdown-icon-spanWidth) * -.5) - var(--dropdown-icon-spanThickness));
-    transform: rotate(-45deg);
-}
-.headerBar-subDropdown-wrapper .dropdown-chevron-right {
-    top: calc(var(--dropdown-icon-spanWidth) * 1.5);
-    transform: rotate(-45deg);
-}
-.subNavDropdownActive .dropdown-chevron-right {
-    top: calc(calc(var(--dropdown-icon-spanWidth) * -.5) - var(--dropdown-icon-spanThickness));
-    transform: rotate(45deg);
-}
-
-
 /* Dropdown Transistion */
 .headerBar-subDropdown-wrapper{
     overflow: hidden;
@@ -266,12 +235,10 @@ body{
     top: 105%;
 }
 
-.headerBar-subDropdown-wrapper.subNavDropdownActive {
-/* .headerBar-subDropdown-wrapper:hover { */
+.headerBar-subDropdown-wrapper:hover {
     overflow: visible;
 }
-.headerBar-subDropdown-wrapper.subNavDropdownActive ul {
-/* .headerBar-subDropdown-wrapper:hover ul { */
+.headerBar-subDropdown-wrapper:hover ul {
     background-color: var(--nav-dropdown-colorBg);
     border-top: 4px solid var(--nav-dropdown-colorBorder);
     top: 100%;
@@ -279,8 +246,7 @@ body{
 .headerBar-subDropdown-wrapper ul a{
     color: transparent;
 }
-.headerBar-subDropdown-wrapper.subNavDropdownActive ul a {
-/* .headerBar-subDropdown-wrapper:hoversubNavDropdownActive ul a{ */
+.headerBar-subDropdown-wrapper:hover ul a{
     display: block;
     transition: all var(--nav-transition-duration);
     visibility: visible;

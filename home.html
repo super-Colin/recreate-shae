@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/base-styles.css">
     <link rel="stylesheet" href="./styles/brand-styles.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <!-- <link rel="stylesheet" href="./styles/header_copy.css"> -->
     <link rel="stylesheet" href="./styles/sliding-boxes.css">
 
     <link rel="stylesheet" href="./styles/fontawesome/css/icons.css">
@@ -39,11 +40,28 @@
                 </div>
 
                 <nav>
-                    <div class="headerBar-nav-wrapper">
+                    <div class="headerBar-mainDropdown-button">
+                        <div class="headerBar-dropdown-icon">
+                            <span class="dropdown-plus-vertical"></span>
+                            <span class="dropdown-plus-horizontal"></span>
+                                <span class="dropdown-chevron-left"></span>
+                                <span class="dropdown-chevron-right"></span>
+                        </div>
+                    </div>
+
+                    <div class="headerBar-mainNav-wrapper">
                         <a href="./home.html">Home</a>
                         <a href="./about.html">About</a>
-                        <div class="headerBar-dropdown-wrapper">
-                            <a href="./services">Services</a>
+                        <div class="headerBar-subDropdown-wrapper">
+                            <a href="#">Services</a>
+                            <div class="headerBar-subDropdown-button">
+                                <div class="headerBar-dropdown-icon">
+                                    <span class="dropdown-plus-vertical"></span>
+                                    <span class="dropdown-plus-horizontal"></span>
+                                    <span class="dropdown-chevron-left"></span>
+                                    <span class="dropdown-chevron-right"></span>
+                                </div>
+                            </div>
                             <ul>
                                 <li><a href="#">Development</a></li>
                                 <li><a href="#">Hosting</a></li>
@@ -52,8 +70,16 @@
                             </ul>
                         </div>
 
-                        <div class="headerBar-dropdown-wrapper">
-                            <a href="./services">Another</a>
+                        <div class="headerBar-subDropdown-wrapper">
+                            <a href="#">Another</a>
+                            <div class="headerBar-subDropdown-button">
+                                <div class="headerBar-dropdown-icon">
+                                    <span class="dropdown-plus-vertical"></span>
+                                    <span class="dropdown-plus-horizontal"></span>
+                                    <span class="dropdown-chevron-left"></span>
+                                    <span class="dropdown-chevron-right"></span>
+                                </div>
+                            </div>
                             <ul>
                                 <li><a href="#">Development</a></li>
                                 <li><a href="#">Security</a></li>
@@ -66,6 +92,9 @@
             </div>
         </div>
     </header>
+
+
+
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde esse ea recusandae dolor itaque optio. Fuga, aut inventore. Quam ipsam excepturi impedit ratione ducimus vitae ex quisquam fuga ullam eum!</p>
 
 
@@ -118,5 +147,6 @@
     <h5>H5 Test</h5> -->
 
     <script src="./js/sliding-boxes.js"></script>
+    <script src="./js/header.js"></script>
 </body>
 </html>

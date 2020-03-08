@@ -1,5 +1,5 @@
 :root{
-    --layout-main-spacing: 1rem;
+    --layout-main-spacing: 1.3rem;
 
     --layout-font-size-h1: 3.2rem;
     --layout-font-size-h2: 2.8rem;
@@ -7,13 +7,34 @@
     --layout-font-size-h4: 2.1rem;
     --layout-font-size-h5: 1.8rem;
     --layout-font-size-h6: 1.6rem;
-    --layout-font-size-p: 1.3rem;
+    --layout-font-size-p: 1.1rem;
+
+    --layout-color-white: #f0f0f0;
+    --layout-color-greyLight: #e2e2e2;
+    --layout-color-grey: #b0b0b0;
+    --layout-color-greyDark: #909090;
 }
 
+/* 320px - 780px phone - tablet */
+/* 780px - 1200px tablet */
+/* 1200px - all desktop */
 
 
+@media(min-width: 780px){
+    :root {
+        --layout-main-spacing: 1.3rem;
 
-@media(min-width: 1200px){
+        --layout-font-size-h1: 3.2rem;
+        --layout-font-size-h2: 2.8rem;
+        --layout-font-size-h3: 2.4rem;
+        --layout-font-size-h4: 2.1rem;
+        --layout-font-size-h5: 1.8rem;
+        --layout-font-size-h6: 1.6rem;
+        --layout-font-size-p: 1.3rem;
+    }
+}
+
+@media(min-width: 1200px) {
     :root {
         --layout-main-spacing: 1.5rem;
 
@@ -26,3 +47,5 @@
         --layout-font-size-p: 1.3rem;
     }
 }
+
+
